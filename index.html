@@ -3,8 +3,49 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Kjeld Heemskerk</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	</head>
 	<body>
-		<h1>Test</h1>
+		<div class="container">
+			<nav> 
+				<div class="logo">
+					Portfolio
+				</div>
+				<ul class="navigatie">
+					<Li><a href="">Relecteren</a> </Li>
+					<li><a href="">Feedback</a> </Li>
+					<li><a href="">POP verslag</a> </li>
+					<li><a href="">Plan van aanpak</a> </li>
+					<li><a href="">Communiceren</a> </li>
+					<li><a href="">Presenteren</a> </li>
+					<li><a href="">Edumundo</a> </li>
+					<li><a href="">Onderzoek</a> </li>
+					<li><a href="">Rapporteren</a> </li>
+				</ul>
+			</nav>
+			<div class="hoofdTekst">
+				<div class="cols">
+					<span class="topline"> Leuk dat je er bent!</span>
+					<h1>ik ben <span class="multiText"></span></h1>
+					<p>en ben 21 jaar oud</p>
+				</div>
+				<div class="cols cols1">
+					<div class="foto">
+						<img src="IMG/foto.jfif">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+		<script>
+			var typed = new Typed(".multiText", {
+				strings: ["Kjeld Heemskerk", "informatica student", "ICT Beheerder"],
+				typeSpeed: 150,
+				backSpeed: 150,
+				loop: true
+			})
+		</script>
 	</body>
 </html>
