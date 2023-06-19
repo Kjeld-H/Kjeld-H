@@ -67,6 +67,7 @@ p{
 	width: 90%;
 	font-size: 2em;
 	color: black;
+	text-align: center;
 }
 
 .foto img{
@@ -92,6 +93,13 @@ iframe{
 	display: block;
 	height: 90vh;
 
+}
+
+video{
+	width: 60%;
+	margin: auto;
+	display: block;
+	margin-top: 3%;
 }
 
 #download{
