@@ -3,17 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Kjeld Heemskerk</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<div class="container">
-			<nav> 
-				<div class="logo">
-					<a href="index.html"> Portfolio </a>
-				</div>
-				<ul class="navigatie">
+		<div class="navigatie">
+            <nav>
+                <a href="/" class="logo-container">
+                    <div class="site-title"><a href="index.html">Portfolio</a></div>
+                </a>
 					<Li><a href="reflecteren.html">Relecteren</a> </Li>
 					<li><a href="feedback.html">Feedback</a> </Li>
 					<li><a href="pop.html">POP verslag</a> </li>
@@ -23,8 +21,9 @@
 					<li><a href="edumundo.html">Edumundo</a> </li>
 					<li><a href="onderzoek.html">Onderzoek</a> </li>
 					<li><a href="rapporteren.html">Rapporteren</a> </li>
-				</ul>
-			</nav>
+            </nav>
+        </div>
+		<div class="container">			
 			<div class="hoofdTekst">
 				<div class="cols">
 					<span class="topline"> Leuk dat je er bent!</span>
@@ -39,7 +38,6 @@
 			</div>
 		</div>
 		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
 		<script>
 			var typed = new Typed(".multiText", {
 				strings: ["Kjeld Heemskerk", "informatica student", "ICT Beheerder"],
