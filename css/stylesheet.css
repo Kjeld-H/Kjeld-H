@@ -233,3 +233,11 @@ a{
 a:hover{
 	color: red;
 }
+
+.linkengels{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	margin-top: 40px;
+}
